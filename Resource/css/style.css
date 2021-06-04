@@ -137,11 +137,8 @@ a {
   transition: all 0.2s;
 }
 
-#section-cover h2 {
-  border-color: #42b0ff;
-}
-
 .section-cause h2,
+#section-cover h2,
 .section-origin h2,
 .section-effect h2,
 .section-solution h2 {
@@ -494,9 +491,9 @@ nav {
       rgba(255, 255, 255, 0),
       rgba(255, 255, 255, 0)
     ),
-    url(img/Loneliness-2.jpg);
+    url(img/cover.jpg);
   background-size: cover;
-  background-position: right;
+  background-position: center;
   background-repeat: no-repeat;
   -webkit-box-shadow: 0 0px 10px 0px rgba(32, 33, 36, 0.75);
   box-shadow: 0 0px 10px 0px rgba(32, 33, 36, 0.75);
@@ -507,7 +504,7 @@ nav {
   width: fit-content;
   padding: 10.5px 40px;
   color: #000;
-  background-color: #4fc6fc;
+  background-color: #00ff19;
   border-radius: 200px;
   text-align: center;
   transition: all 0.3s;
@@ -552,30 +549,6 @@ nav {
   margin-top: -24px;
   float: left;
   transform: scaleX(-1);
-}
-
-.synopsis-para-row {
-  margin-top: -13px;
-  background-image: linear-gradient(
-      to left,
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0),
-      rgba(255, 255, 255, 0.75),
-      rgba(255, 255, 255, 1),
-      rgba(255, 255, 255, 1),
-      rgba(255, 255, 255, 1),
-      rgba(255, 255, 255, 1),
-      rgba(255, 255, 255, 1),
-      rgba(255, 255, 255, 1),
-      rgba(255, 255, 255, 1),
-      rgba(255, 255, 255, 1)
-    ),
-    url(img/synopsis.jpg);
-  background-size: contain;
-  background-position: right;
-  background-repeat: no-repeat;
 }
 
 #section-synopsis div:last-child div {
