@@ -124,7 +124,7 @@ a {
 
 #section-cover h2,
 .section-cause h2,
-.section-origin h2,
+.section-listen h2,
 .section-effect h2,
 .section-solution h2,
 .footer-title {
@@ -139,19 +139,19 @@ a {
 
 .section-cause h2,
 #section-cover h2,
-.section-origin h2,
+.section-listen h2,
 .section-effect h2,
 .section-solution h2 {
   border-color: #00ff19;
 }
 
-.section-origin h2 {
+.section-listen h2 {
   margin-bottom: 55px;
 }
 
 #section-cover h2:hover,
 .footer-title:hover,
-.section-origin h2:hover,
+.section-listen h2:hover,
 .section-effect h2:hover,
 .section-solution h2:hover {
   transform: scale(1.05);
@@ -598,22 +598,22 @@ nav {
   padding: 30px;
 }
 
-/*----------------------------------------------- SECTION-origin,cause,effect  ---------------------------------------------------*/
+/*----------------------------------------------- SECTION-listen,cause,effect  ---------------------------------------------------*/
 
 .section-cause,
-.section-origin {
+.section-listen {
   padding: 55px 2.5%;
   box-shadow: 0px 21px 10px -18px rgba(32, 33, 36, 0.75) inset;
 }
 
 #section-cause-link,
-#section-origin-link,
+#section-listen-link,
 #section-effect-link {
   margin-top: 0 !important;
   box-shadow: 0 0px 10px 2px rgba(32, 33, 36, 0.75);
   z-index: 10;
 }
-#section-origin-link,
+#section-listen-link,
 #section-effect-link {
   height: 54px;
 }
@@ -632,9 +632,9 @@ nav {
   border-color: #00ff19;
 }
 
-/*----------------------------------------------- SECTION-origin  ---------------------------------------------------*/
+/*----------------------------------------------- SECTION-listen  ---------------------------------------------------*/
 
-.section-origin {
+.section-listen {
   background-image: linear-gradient(
       to right,
       rgba(0, 0, 0, 0),
@@ -646,30 +646,31 @@ nav {
       rgba(17, 17, 17, 1),
       rgb(17, 17, 17)
     ),
-    url(img/Loneliness-origin.png);
+    url(img/apple.jpeg);
   background-size: cover;
+  background-position: top left;
   background-attachment: fixed;
   background-repeat: no-repeat;
   color: #fff;
 }
 
-.section-origin div {
+.section-listen div {
   float: right;
 }
 
-.origin-para-c,
+.listen-para-c,
 .cause-para-c {
   width: 62.5%;
   margin: 0 auto;
   text-align: center;
 }
 
-.origin-para-c:last-child,
+.listen-para-c:last-child,
 .cause-para-c:last-child {
   margin-top: 55px;
 }
 
-.origin-para-rs,
+.listen-para-rs,
 .cause-para-rs {
   width: 75%;
   margin-top: 40px;
@@ -677,7 +678,7 @@ nav {
   text-align: right;
 }
 
-.origin-para-ls,
+.listen-para-ls,
 .cause-para-ls {
   width: 75%;
   margin-top: 40px;
@@ -700,15 +701,13 @@ nav {
   margin: 0;
   padding: 55px;
   width: 45%;
-  border-radius: 31px;
-  background-color: rgba(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.9);
   text-align: center;
   box-shadow: 0 2px 5px 2px rgba(64, 60, 67, 0.26);
   transition: all 0.3s;
 }
 
 .message-ls {
-  border-top-left-radius: 0px !important;
   margin-top: 50px !important;
   text-align: left !important;
   transform-origin: top left;
@@ -719,44 +718,17 @@ nav {
 }
 
 .message-ls:first-child {
-  padding: 22.5px;
+  padding: 55px;
 }
 
-.message-ls:before {
-  content: "";
-  width: 0px;
-  height: 0px;
-  position: absolute;
-  border-left: 15px solid transparent;
-  border-right: 15px solid #fff;
-  border-top: 15px solid #fff;
-  border-bottom: 15px solid transparent;
-  left: -14px;
-  top: 0px;
-}
 .message-rs {
-  border-top-right-radius: 0px !important;
   margin: 50px 0 0 55% !important;
   text-align: right !important;
-  background-color: #42b0ff !important;
   transform-origin: top right;
 }
 
 .message-rs-hover {
   transform: scale(1.05) !important;
-}
-
-.message-rs:before {
-  content: "";
-  width: 0px;
-  height: 0px;
-  position: absolute;
-  border-left: 15px solid #42b0ff;
-  border-right: 15px solid transparent;
-  border-top: 15px solid #42b0ff;
-  border-bottom: 15px solid transparent;
-  right: -14px;
-  top: 0px;
 }
 
 .section-cause div img {
@@ -1188,10 +1160,10 @@ footer {
 }
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  background: black;
+  background: #00ff19;
   box-shadow: inset 0 0 20px rgba(245, 245, 245, 0.671);
 }
 ::-webkit-scrollbar-track {
-  margin-top: 80px;
+  margin-top: 55px;
   border-radius: 10px;
 }

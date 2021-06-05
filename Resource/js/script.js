@@ -29,9 +29,9 @@ $(document).ready(function () {
   $(".js--section-synopsis").waypoint(
     function (direction) {
       if (direction == "down") {
-        $(".about-us").addClass("underline");
+        $(".polite").addClass("underline");
       } else {
-        $(".about-us").removeClass("underline");
+        $(".polite").removeClass("underline");
       }
     },
     {
@@ -42,10 +42,10 @@ $(document).ready(function () {
   $(".js--section-youtube").waypoint(
     function (direction) {
       if (direction == "down") {
-        $(".about-us").removeClass("underline");
+        $(".polite").removeClass("underline");
       }
       if (direction == "up") {
-        $(".about-us").addClass("underline");
+        $(".polite").addClass("underline");
       }
     },
     {
@@ -53,13 +53,13 @@ $(document).ready(function () {
     }
   );
 
-  $(".js--section-origin").waypoint(
+  $(".js--section-listen").waypoint(
     function (direction) {
       if (direction == "down") {
-        $(".origin").addClass("underline");
+        $(".listen").addClass("underline");
       }
       if (direction == "up") {
-        $(".origin").removeClass("underline");
+        $(".listen").removeClass("underline");
       }
     },
     {
@@ -70,131 +70,27 @@ $(document).ready(function () {
   $(".js--section-cause").waypoint(
     function (direction) {
       if (direction == "down") {
-        $(".origin").removeClass("underline");
-        $(".causes").addClass("underline");
+        $(".listen").removeClass("underline");
+        $(".letgo").addClass("underline");
       }
       if (direction == "up") {
-        $(".origin").addClass("underline");
-        $(".causes").removeClass("underline");
+        $(".listen").addClass("underline");
+        $(".letgo").removeClass("underline");
       }
     },
     {
       offset: "150px;",
     }
   );
-  
-  $(".js--message-1").waypoint(
-    function (direction) {
-      if (direction == "down") {
-        $(".js--message-1").addClass("message-ls-hover");
-      }
-      if (direction == "up") {
-        $(".js--message-1").removeClass("message-ls-hover");
-      }
-    },
-    {
-      offset: "50%",
-    }
-  );
-  $(".js--message-2").waypoint(
-    function (direction) {
-      if (direction == "down") {
-        $(".js--message-2").addClass("message-rs-hover");
-        $(".js--message-1").removeClass("message-ls-hover");
-      }
-      if (direction == "up") {
-        $(".js--message-2").removeClass("message-rs-hover");
-        $(".js--message-1").addClass("message-ls-hover");
-      }
-    },
-    {
-      offset: "50%",
-    }
-  );
-  $(".js--message-3").waypoint(
-    function (direction) {
-      if (direction == "down") {
-        $(".js--message-3").addClass("message-ls-hover");
-        $(".js--message-2").removeClass("message-rs-hover");
-      }
-      if (direction == "up") {
-        $(".js--message-3").removeClass("message-ls-hover");
-        $(".js--message-2").addClass("message-rs-hover");
-      }
-    },
-    {
-      offset: "50%",
-    }
-  );
-  $(".js--message-4").waypoint(
-    function (direction) {
-      if (direction == "down") {
-        $(".js--message-4").addClass("message-rs-hover");
-        $(".js--message-3").removeClass("message-ls-hover");
-      }
-      if (direction == "up") {
-        $(".js--message-4").removeClass("message-rs-hover");
-        $(".js--message-3").addClass("message-ls-hover");
-      }
-    },
-    {
-      offset: "50%",
-    }
-  );
-  $(".js--message-5").waypoint(
-    function (direction) {
-      if (direction == "down") {
-        $(".js--message-5").addClass("message-ls-hover");
-        $(".js--message-4").removeClass("message-rs-hover");
-      }
-      if (direction == "up") {
-        $(".js--message-5").removeClass("message-ls-hover");
-        $(".js--message-4").addClass("message-rs-hover");
-      }
-    },
-    {
-      offset: "50%",
-    }
-  );
-  $(".js--message-6").waypoint(
-    function (direction) {
-      if (direction == "down") {
-        $(".js--message-6").addClass("message-rs-hover");
-        $(".js--message-5").removeClass("message-ls-hover");
-      }
-      if (direction == "up") {
-        $(".js--message-6").removeClass("message-rs-hover");
-        $(".js--message-5").addClass("message-ls-hover");
-      }
-    },
-    {
-      offset: "50%",
-    }
-  );
-  $(".js--message-7").waypoint(
-    function (direction) {
-      if (direction == "down") {
-        $(".js--message-7").addClass("message-ls-hover");
-        $(".js--message-6").removeClass("message-rs-hover");
-      }
-      if (direction == "up") {
-        $(".js--message-7").removeClass("message-ls-hover");
-        $(".js--message-6").addClass("message-rs-hover");
-      }
-    },
-    {
-      offset: "50%",
-    }
-  );
 
   $(".js--section-effect").waypoint(
     function (direction) {
       if (direction == "down") {
-        $(".causes").removeClass("underline");
+        $(".letgo").removeClass("underline");
         $(".effect").addClass("underline");
       }
       if (direction == "up") {
-        $(".causes").addClass("underline");
+        $(".letgo").addClass("underline");
         $(".effect").removeClass("underline");
       }
     },
@@ -292,7 +188,6 @@ $(document).ready(function () {
       offset: "50%",
     }
   );
-
 
   $(".js--solution-conclusion").waypoint(
     function (direction) {
